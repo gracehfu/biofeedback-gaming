@@ -10,6 +10,17 @@ The EMG* signal is be measured using electrodes attached to the arm and processe
 
 The project can either be built with one user controlling all 4 inputs or 4 users controlling a single input. The later can be done by grounding making sure there is a shared common ground electrode. 
 
+## Materials
+ 4 LEDs (for testing)
+ 4x3 electrodes + pads
+ 10 male to male wires (4xArduino, 2x Ground, 4x Ground for Open BCI)
+ 4 resistors
+ 1 breadboard
+ 1 OpenBCI Ganglion Board
+ 1 bluetooth dongle
+ 1 Arduino Uno Rev 3
+ 1 USB 2.0 CABLE TYPE A/B
+
 ## Future Applications
 Since the OpenBCI Boards are capable of EMG, ECG* and EEG* readings, the workshop can be modified to control other devices with the electrical signals from our muscle, heart or brain. For example, the workshop can be modified with the same OpenBCI board and Arduino to control RC cars with our thoughts (EEG) or monitor our exercise intensity by measuring our heart rate (ECG). 
 
