@@ -64,7 +64,7 @@ void loop() {
     }
 
     //if LEFT or RIGHT are above threshold, deactivate the lower of the two, and activate the higher ... otherwise, deactivate both
-    if ((emgData[2] >= THRESHOLD || emgData[3] >= THRESHOLD) {
+    if (emgData[2] >= THRESHOLD || emgData[3] >= THRESHOLD) {
         if (emgData[2] >= emgData[3]) { // if LEFT is greater than RIGHT (giving priority to left in case of a tie)
           digitalWrite(pins[3], HIGH); // deactivate RIGHT
           digitalWrite(pins[2], LOW); // activate LEFT
