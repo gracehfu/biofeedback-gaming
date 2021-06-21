@@ -35,8 +35,8 @@ The project can either be built with one user controlling all 4 inputs or 4 user
 Since the OpenBCI Boards are capable of EMG, ECG* and EEG* readings, the workshop can be modified to control other devices with the electrical signals from our muscle, heart or brain. For example, the workshop can be modified with the same OpenBCI board and Arduino to control RC cars with our thoughts (EEG) or monitor our exercise intensity by measuring our heart rate (ECG). 
 
 ## Definitions*
-Electromyography (EMG) - is a biomedical signal that measures electrical currents generated in muscles during its contraction representing neuromuscular activities.
+Electromyography (EMG) - is a biomedical signal that measures electrical currents generated in muscles during its contraction representing neuromuscular activities
 
 Electrocardiography (ECG) - is the process of producing an electrocardiogram, a recording – a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin
 
-Electroencephalography (EEG) - is an electrophysiological monitoring method to record electrical activity of the brain.
+Electroencephalography (EEG) - is an electrophysiological monitoring method to record electrical activity of the brain
