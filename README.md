@@ -1,14 +1,14 @@
 # Biofeedback Gaming
-The project is designed to play Wii games using the electrical signal generated from muscle contractions. 
+This project is designed to play Wii games using the electrical signals generated from muscle contractions. 
 It has so far been tested with Super Mario Bros and Super Smash Bros Brawl.
 
 ## Motivation
-The initial motivation behind this project was to develop a workshop to provide first and second year students at McMaster University the opportunity to work on a hands-on biomedical engineering project which is not typically introduced until fourth year. After speaking to graduates and current fourth year students in the biomedical and electrical engineering program, there is a consensus on wanting more exposure to technical projects earlier in their degree. Having experience with the hardware and software components introduced in this workshop will help students in the industry during their co-op term as well as motivate them to explore other projects on their own.
+The initial motivation behind this project was to develop a workshop to provide first and second year students at McMaster University the opportunity to work on a hands-on biomedical engineering project which is not typically introduced until fourth year. After speaking to graduates and current fourth year students in the biomedical and electrical engineering program, there is a consensus on wanting more exposure to technical projects earlier in their degree. Having experience with the hardware and software components introduced in this workshop will give students a leg up during their co-op term as well as motivate them to explore other projects on their own.
 
 ## Project Details
 The EMG* signal is measured using electrodes attached to the arm and processed and filtered using an  OpenBCI Ganglion Board. OpenBCI is an open-source braincomputer interface platform that provides anyone  with a computer, the tools necessary to sample the electrical activity of their body. The OpenBCI Ganglion Board is a four channel biosensing device compatible with their open source software. The EMG data collected from the boards is sent to a PC through Bluetooth and serially transmitted to the Arduino via a COM port. By programming the Arduino, the board will “press a button” by generating voltage to the digital output pin connected to the Wii remote when a muscle is flexed.
 
-The project can either be built with one user controlling all 4 inputs or 4 users controlling a single input. The later can be done by grounding making sure there is a shared common ground electrode. 
+The project can either be built with one user controlling all 4 inputs or 4 users controlling a single input. The later can be done by making sure there is a shared common ground electrode. 
 
 ## Materials
  4 LEDs (for testing)
